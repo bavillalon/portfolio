@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Bryan Villalon</title>
+  </head>
+
+    <!--top of the body has a wrapper used to make the whole height 100% for the sticky footer-->
+    <body class="d-flex flex-column h-100">
+        <div class="flex-shrink-0">
+            <header class="navbar navbar-expand-sm p-0 mb-3 border-bottom">
+                <!--here I'm using a header container to bring in the full size of the window to 960 px. the header width will go to the full width of the window
+                The h1 tag has it's own class to allow it to be inline and remove the margins to take up the specified height and width
+            the ul for top nav is contained to allow for the individual entries to have padding. in the css the link attributes are specified-->
+                <div class="container d-block p-0 ">
+                    <h1 class="d-block d-sm-inline-block text-center m-0 p-3">Bryan Villalon</h1>
+                    <div class="d-block d-sm-inline-block text-center float-sm-right py-4">
+                        <a class=" p-2" href="index.html">About Me</a>
+                        <a class="border-left p-2" href="portfolio.html">Portfolio</a>
+                        <a class="border-left p-2" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </header>
+            <!--entire content is contained to make a reference to place items. the h2 tag has its own class to allow for control the rest is just about me-->
+            <div class="container p-3 my-3 border">
+                <h2 class="border-bottom mb-3">Portfolio</h2>
+                
+                <!--each portfolio entry is floating to automatically fill in bellow in the content area hence each one having it's own container.
+                also created the container to create a position relative for the text. in order you'll see the about me, game from prework, and my ee experience at HPE as well as a placeholder to indicate more to come
+            -->
+                <div class="row">
+                    <div class="col-sm-4 p-0 m-3 position-relative">
+                        <a href="index.html">
+                            <img src="assets/images/BryanV_picture.jpg.jpg" class="w-100 m-0" alt="Picture or Bryan">
+                        </a>
+                        <h3 class="w-100"><a class="d-block" href="index.html" >About Me</a></h3>
+                    </div>
+
+                    <div class="col-sm-4  p-0 m-3 position-relative">
+                        <a href="https://scratch.mit.edu/projects/316176722/">
+                            <img src="assets/images/placeholder_scratch_game.jpg" class="w-100 m-0" alt="Picture to represent game">
+                        </a>
+                        <h3 class="w-100"><a class="d-block" href="https://scratch.mit.edu/projects/316176722/" >Scratch Game</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 p-0 m-3 position-relative">
+                        <a href="https://www.hpe.com/us/en/servers/networking.html">
+                            <img src="assets/images/ee_portfolio.jpg" class="w-100 m-0" alt="picture to show electrical engineering experience at HPE">
+                        </a>
+                        <h3 class="w-100"><a  class="d-block" href="https://www.hpe.com/us/en/servers/networking.html">HPE</a></h3>
+                    </div>
+
+                    <div class="col-sm-4 p-0 m-3 position-relative">
+                        <a href="https://bavillalon.github.io/Word-Guess-Game/index.html">
+                            <img src="assets/images/Hangman-6.png" class="w-100 m-0" alt="hangman">
+                        </a>
+                        <h3 class="w-100"><a class="d-block"  href="https://bavillalon.github.io/Word-Guess-Game/index.html" >Hangman Game</a></h3>
+                    </div>               
+    
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4 p-0 m-3 position-relative">
+                        <a href="https://bavillalon.github.io/unit-4-game/index.html">
+                            <img src="assets/images/ice.png" class="w-100 m-0" alt="ice">
+                        </a>
+                        <h3 class="w-100"><a class="d-block"  href="https://bavillalon.github.io/unit-4-game/index.html" >Crystal Collector Game</a></h3>
+                    </div>        
+                    <div class="col-sm-4 p-0 m-3 position-relative">
+                        <a href="#">
+                            <img src="assets/images/portfolio_placeholder.png" class="w-100 m-0" alt="blank image as background for placeholder">
+                        </a>
+                        <h3 class="w-100"><a  class="d-block" href="#" >More to Come!</a></h3>
+                    </div>
+                </div>
+                
+            </div>
+            <!--push up for sticky footer-->
+            <div class="push"> </div>
+        </div>
+<!--footer to stay at bottom of content or window whichever is last-->
+<footer class="footer mt-auto py-3">
+    <div class="text-center">
+        Copyright &copy;
+    </div>
+</footer>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
